@@ -31,7 +31,7 @@ ob_end_clean();
 
 </head>
 <body>
-    <form action="/checkers/username.php" method="post">
+    <form action="username.php" method="post">
         <p>Insira um email ou username</p>
         <input type="text" required="requied" name="termo"><input type=submit value="Enviar"/>
     </form>
